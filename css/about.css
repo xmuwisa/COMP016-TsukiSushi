@@ -1,0 +1,31 @@
+.content-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 50px 24px 15px;
+}
+
+.content-para {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.content-para span {
+    font-family: "Michroma", sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #b53440;
+}
+
+@media (max-width: 600px) {
+    .content-title {
+        font-size: 24px;
+    }
+
+    .content-para {
+        font-size: 14px;
+    }
+}

@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Receipts</title>
+        <title>Contact Us</title>
         <link
             rel="icon"
             href="./images/tsuki-sushi-logo.png"
             type="image/png"
         />
         <link href="./css/global.css" rel="stylesheet" />
-        <link href="./css/receipts.css" rel="stylesheet" />
+        <link href="./css/contact.css" rel="stylesheet" />
     </head>
     <body>
         <div class="main-container">
@@ -39,25 +39,32 @@
             </div>
 
             <div class="child-container">
-                <div class="logo-name">RECEIPTS</div>
-                <!-- Receipts list container -->
-                <div id="receiptsList" class="receipts-list"></div>
-
-                <!-- Popup overlay for showing receipt details (initially hidden) -->
-                <div id="receiptDetailsOverlay" class="popup-container">
-                    <div id="receiptDetailsPopup" class="popup-form">
-                        <div
-                            id="receiptDetailsContent"
-                            class="receipt-details-content"
-                        ></div>
-                        <div class="receipt-button">
-                            <button id="closeDetailsBtn">Close</button>
+                <div class="logo-name">CONTACT</div>
+                <div class="hero">
+                    <img src="./images/hero-image.png" alt="Tsuki Sushi" />
+                </div>
+                <div class="contact-content">
+                    <div class="contact-para">
+                        <div class="contact-title">Get in Touch</div>
+                        <div class="contact-para-2">
+                            Have questions, special requests, or need assistance
+                            with your order? We're here to help! Reach out, and
+                            we'll get back to you as soon as possible.
                         </div>
                     </div>
+                    <div class="contact-form">
+                        <div class="contact-user">
+                            <input type="text" placeholder="Name" />
+                            <input type="email" placeholder="Email" />
+                        </div>
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                </div>
+                <div class="send">
+                    <button>Send</button>
                 </div>
             </div>
 
-            <!-- Footer -->
             <div class="footer-container">
                 <img src="./images/footer-image.png" alt="Tsuki Sushi" />
                 <div class="footer">
@@ -71,6 +78,8 @@
         </div>
 
         <script src="https://unpkg.com/lucide@latest"></script>
-        <script src="./js/receipts.js"></script>
+        <script>
+            lucide.createIcons();
+        </script>
     </body>
 </html>
