@@ -1,0 +1,223 @@
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px 0 150px;
+    gap: 44px;
+    height: 100%;
+}
+
+.details-container .item-name {
+    display: flex;
+    align-items: start;
+    border-bottom: 2px solid #f15a26;
+    width: auto;
+    text-align: left;
+}
+
+.details-container .item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    gap: 24px;
+    height: 100%;
+}
+
+.details-container img {
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.details-container .item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    width: 50%;
+    height: 100%;
+}
+
+.details-container span {
+    font-weight: 600;
+}
+
+.details-container .item-desc {
+    width: 100%;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    transition: all 0.3s ease-in-out;
+    background-color: #22222210;
+}
+
+.details-container .item-desc:hover {
+    background-color: #fcfcfc;
+    border: 2px solid #222222;
+    box-shadow: 0 15px 0px 7px #222222;
+}
+
+.details-container .add-to-cart {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.details-container .add-to-cart button {
+    background-color: #fcfcfc;
+    padding: 8px 18px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    opacity: 0.8;
+    cursor: pointer;
+    border: 2px solid #222222;
+    transition: all 0.3s ease-in-out;
+}
+
+.details-container .add-to-cart button:hover {
+    background-color: #f1592634;
+    opacity: 1;
+}
+
+.details-container .item-price {
+    background-color: #f1592615;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.details-container .item-price span {
+    font-weight: 600;
+}
+
+.popup-content {
+    width: 350px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 32px;
+    border: 2px solid #222222;
+    padding: 22px;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-content:hover {
+    box-shadow: 0 15px 0px 7px #222222;
+}
+
+.popup-content div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.popup-buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.popup-buttons button {
+    border: 2px solid #222222;
+    width: 110px;
+    padding: 10px;
+    opacity: 0.8;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.popup-buttons button:hover {
+    opacity: 1;
+}
+
+.popup-buttons .cancel {
+    background-color: #f1592615;
+}
+
+.popup-buttons .confirm {
+    background-color: #f1592650;
+}
+
+.popup-content button {
+    border: 2px solid #222222;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 3px 8px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+.popup-content button:hover {
+    opacity: 1;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.quantity-value {
+    font-weight: 600;
+}
+
+.emp {
+    font-family: "Michroma", sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #f15a26;
+    margin-bottom: 18px;
+}
+
+.add-to-cart-title {
+    font-family: "Michroma", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #b53440;
+}
+
+@media (max-width: 600px) {
+    .details-container .item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .details-container img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .details-container .item-details {
+        width: 100%;
+    }
+
+    .details-container .add-to-cart button {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .popup-content {
+        width: 300px;
+    }
+}

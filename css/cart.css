@@ -1,0 +1,313 @@
+.item-list {
+    padding: 20px 0 150px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item {
+    width: 100%;
+    border: 2px solid #222222;
+    padding: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+.item:hover {
+    box-shadow: 0 15px 0px 7px #222222;
+}
+
+.item-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.item .item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+.item .item-info span {
+    font-weight: 600;
+}
+
+.item .item-info .name {
+    font-family: "Michroma", sans-serif;
+    border-bottom: 2px solid #f15a26;
+}
+
+.item .item-info .total-amount {
+    width: auto;
+    background-color: #f1592615;
+    padding: 12px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.delete-item {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.delete-item button {
+    border: 2px solid #222222;
+    width: 110px;
+    padding: 10px;
+    color: #fcfcfc;
+    opacity: 0.7;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #b53440;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.delete-item button:hover {
+    opacity: 1;
+}
+
+.cart-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 4px;
+    padding: 40px 0px 20px 0;
+}
+
+.cart-button button {
+    border: 2px solid #222222;
+    display: flex;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px;
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cart-button .clear {
+    background-color: #f1592615;
+}
+
+.cart-button .order {
+    background-color: #f1592650;
+}
+
+.cart-button button:hover {
+    opacity: 1;
+}
+
+.popup-form {
+    margin: 0 20px;
+}
+
+.order-content {
+    box-sizing: border-box;
+    padding: 16px;
+    width: 100%;
+    border: 2px solid #222222;
+}
+
+.order-summary-content {
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    margin: 16px 0 24px 0;
+}
+
+.order-summary-content table {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #222222;
+}
+
+.order-summary-content table th {
+    background-color: #f1592615;
+    text-align: left;
+    font-family: "Michroma", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.order-summary-content table th {
+    border: 1px solid #222222;
+}
+
+.order-summary-content table td,
+.order-summary-content table th {
+    padding: 4px 8px;
+}
+
+.order-form-title {
+    font-family: "Michroma", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #b53440;
+}
+
+.order-summary-title {
+    font-family: "Michroma", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.customer-contact {
+    display: flex;
+    gap: 10px;
+}
+
+.customer-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 16px 0 24px 0;
+}
+
+.customer-contact input {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #222222;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.customer-inputs textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #222222;
+    box-sizing: border-box;
+    resize: none;
+    height: 150px;
+    font-size: 16px;
+}
+
+.emp {
+    font-family: "Michroma", sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid #f15a26;
+    margin-bottom: 18px;
+}
+
+.order-total {
+    width: 100%;
+    background-color: #f1592615;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+.order-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    width: 100%;
+    padding: 16px 0 0 0;
+}
+
+.order-buttons button {
+    border: 2px solid #222222;
+    padding: 10px;
+    opacity: 0.8;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.order-buttons button:hover {
+    opacity: 1;
+}
+
+.order-buttons .cancel {
+    background-color: #f1592615;
+}
+
+.order-buttons .submit {
+    background-color: #f1592650;
+}
+
+.order-type div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 16px 0 24px 0;
+}
+
+.extras-table table {
+    border-collapse: collapse;
+    margin: 16px 0 24px 0;
+}
+
+.extras-table th,
+.extras-table td {
+    padding: 4px 8px;
+}
+.extras-table tr td:nth-child(1),
+.extras-table th:nth-child(1) {
+    width: 30%;
+    border: 1px solid #222222;
+}
+
+.no-item {
+    font-family: "Michroma", sans-serif;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .order-summary-content table {
+        font-size: 14px;
+    }
+
+    .order-buttons button {
+        width: 100%;
+    }
+
+    .cart-button button {
+        width: 100%;
+    }
+
+    .customer-contact {
+        flex-direction: column;
+    }
+
+    .customer-contact input {
+        font-size: 14px;
+    }
+
+    .customer-inputs textarea {
+        font-size: 14px;
+    }
+
+    .no-item {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Item Details</title>
+        <link
+            rel="icon"
+            href="./images/tsuki-sushi-logo.png"
+            type="image/png"
+        />
+        <link href="./css/global.css" rel="stylesheet" />
+        <link href="./css/details.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- Header -->
+            <div class="navbar">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img
+                            src="./images/tsuki-sushi-logo.png"
+                            alt="Tsuki Sushi"
+                        />
+                    </a>
+                    <span>
+                        <a href="index.html" class="nav-l-name">TSUKI SUSHI</a>
+                    </span>
+                </div>
+                <div class="nav-icons">
+                    <a href="cart.html">
+                        <i data-lucide="shopping-cart"></i>
+                    </a>
+                    <a href="receipts.html">
+                        <i data-lucide="receipt-text"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="child-container">
+                <!-- Item details container -->
+                <div id="detailsContainer" class="details-container"></div>
+
+                <!-- Popup form overlay (initially hidden) -->
+                <div id="popupOverlay" class="popup-container">
+                    <div id="popupForm" class="popup-form">
+                        <span class="add-to-cart-title">ADD TO CART</span>
+                        <div id="popupContent" class="popup-content"></div>
+                        <div class="popup-buttons">
+                            <button id="cancelButton" class="cancel">
+                                Cancel
+                            </button>
+                            <button id="addToCartButton" class="confirm">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <span>COMP 016</span>
+                <span class="sep">/</span>
+                <span class="name">MARIA LUISA O. EUSTAQUIO</span>
+                <span class="sep">/</span>
+                <span>BSIT 3-5</span>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="./js/details.js"></script>
+    </body>
+</html>

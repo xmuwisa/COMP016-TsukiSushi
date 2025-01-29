@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TSUKI SUSHI</title>
+        <link
+            rel="icon"
+            href="./images/tsuki-sushi-logo.png"
+            type="image/png"
+        />
+        <link href="./css/global.css" rel="stylesheet" />
+        <link href="./css/main.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="main-container">
+            <!-- Header -->
+            <div class="navbar">
+                <div>
+                    <a href="index.html">
+                        <img
+                            src="./images/tsuki-sushi-logo.png"
+                            alt="Tsuki Sushi"
+                        />
+                    </a>
+                </div>
+                <div class="nav-icons">
+                    <a href="cart.html">
+                        <i data-lucide="shopping-cart"></i>
+                    </a>
+                    <a href="receipts.html">
+                        <i data-lucide="receipt-text"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="child-container">
+                <div class="logo-name">TSUKI SUSHI</div>
+
+                <!-- Tabs for Sushi and Drinks -->
+                <div class="tabs">
+                    <button class="tab-button" data-tab="sushi">SUSHI</button>
+                    <button class="tab-button" data-tab="drinks">DRINKS</button>
+                </div>
+
+                <!-- Filters -->
+                <div id="filters" class="filters">
+                    <div>
+                        <label for="categoryFilter"
+                            ><i data-lucide="filter" class="filter-icon"></i
+                        ></label>
+                        <select
+                            id="categoryFilter"
+                            class="filter-select"
+                        ></select>
+                    </div>
+
+                    <div>
+                        <label for="availabilityFilter"
+                            ><i data-lucide="eclipse" class="filter-icon"></i
+                        ></label>
+                        <select id="availabilityFilter" class="filter-select">
+                            <option value="all">All</option>
+                            <option value="available">Available</option>
+                            <option value="unavailable">Unavailable</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Items list -->
+                <div id="itemsList" class="item-list"></div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <span>COMP 016</span>
+                <span class="sep">/</span>
+                <span class="name">MARIA LUISA O. EUSTAQUIO</span>
+                <span class="sep">/</span>
+                <span>BSIT 3-5</span>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
