@@ -287,7 +287,7 @@
     },
     {
         "id": 17,
-        "image": "./images/futomaki.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Futomaki",
         "desc": "Thick sushi roll filled with vegetables and sweet tamago.",
         "price": 599,
@@ -308,7 +308,7 @@
     },
     {
         "id": 18,
-        "image": "./images/hamachi-nigiri.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Hamachi Nigiri",
         "desc": "Fresh yellowtail served atop seasoned sushi rice.",
         "price": 739,
@@ -322,7 +322,7 @@
     },
     {
         "id": 19,
-        "image": "./images/lobster-roll.jpeg",
+        "image": "./images/eel-nigiri.jpg",
         "name": "Lobster Roll",
         "desc": "Luxurious lobster meat wrapped with avocado and cucumber.",
         "price": 1299,
@@ -342,7 +342,7 @@
     },
     {
         "id": 20,
-        "image": "./images/tempura-roll.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Tempura Roll",
         "desc": "Shrimp tempura with cucumber and avocado wrapped in sushi rice.",
         "price": 629,
@@ -396,7 +396,7 @@
     },
     {
         "id": 23,
-        "image": "./images/salmon-nigiri.jpg",
+        "image": "./images/philadelphia-roll.jpg",
         "name": "Salmon Nigiri",
         "desc": "Freshly sliced salmon on a bed of seasoned sushi rice.",
         "price": 699,
@@ -410,7 +410,7 @@
     },
     {
         "id": 24,
-        "image": "./images/tuna-nigiri.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Tuna Nigiri",
         "desc": "Thick-cut tuna served atop perfectly seasoned rice.",
         "price": 729,
@@ -424,7 +424,7 @@
     },
     {
         "id": 25,
-        "image": "./images/ebi-nigiri.jpg",
+        "image": "./images/soft-shell-crab-roll.jpg",
         "name": "Ebi Nigiri",
         "desc": "Boiled and butterflied shrimp over a small bed of sushi rice.",
         "price": 699,
@@ -438,7 +438,7 @@
     },
     {
         "id": 26,
-        "image": "./images/unagi-nigiri.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Unagi Nigiri",
         "desc": "Grilled freshwater eel glazed with sweet unagi sauce.",
         "price": 759,
@@ -452,7 +452,7 @@
     },
     {
         "id": 27,
-        "image": "./images/ikura-nigiri.jpg",
+        "image": "./images/dragon-roll.jpg",
         "name": "Ikura Nigiri",
         "desc": "Salmon roe served in a seaweed wrap on top of sushi rice.",
         "price": 799,
@@ -466,7 +466,7 @@
     },
     {
         "id": 28,
-        "image": "./images/tamago-nigiri.jpg",
+        "image": "./images/salmon-roll.jpg",
         "name": "Tamago Nigiri",
         "desc": "Sweet Japanese omelette atop sushi rice, wrapped with seaweed.",
         "price": 499,
@@ -480,7 +480,7 @@
     },
     {
         "id": 29,
-        "image": "./images/hotate-nigiri.jpg",
+        "image": "./images/spicy-scallop-roll.jpg",
         "name": "Hotate Nigiri",
         "desc": "Fresh scallops placed delicately over sushi rice.",
         "price": 799,
@@ -494,7 +494,7 @@
     },
     {
         "id": 30,
-        "image": "./images/madai-nigiri.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Madai Nigiri",
         "desc": "Red snapper sushi with a mild and delicate flavor.",
         "price": 749,
@@ -508,7 +508,7 @@
     },
     {
         "id": 31,
-        "image": "./images/anago-nigiri.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Anago Nigiri",
         "desc": "Sea eel with a light and fluffy texture, topped with sweet eel sauce.",
         "price": 759,
@@ -522,7 +522,7 @@
     },
     {
         "id": 32,
-        "image": "./images/hokkigai-nigiri.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Hokkigai Nigiri",
         "desc": "Surf clam nigiri with a slightly sweet and chewy texture.",
         "price": 699,
@@ -536,7 +536,7 @@
     },
     {
         "id": 33,
-        "image": "./images/salmon-sashimi.jpg",
+        "image": "./images/spider-roll.jpg",
         "name": "Salmon Sashimi",
         "desc": "Thick, fresh cuts of salmon, served raw with soy sauce and wasabi.",
         "price": 899,
@@ -550,7 +550,7 @@
     },
     {
         "id": 34,
-        "image": "./images/tuna-sashimi.jpg",
+        "image": "./images/unagi-don.jpg",
         "name": "Tuna Sashimi",
         "desc": "Premium slices of raw tuna, rich in flavor and texture.",
         "price": 929,
@@ -564,7 +564,7 @@
     },
     {
         "id": 35,
-        "image": "./images/hamachi-sashimi.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Hamachi Sashimi",
         "desc": "Delicate and buttery yellowtail sashimi, served fresh.",
         "price": 999,
@@ -578,7 +578,7 @@
     },
     {
         "id": 36,
-        "image": "./images/madai-sashimi.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Madai Sashimi",
         "desc": "Thinly sliced red snapper sashimi, mildly sweet and tender.",
         "price": 979,
@@ -592,7 +592,7 @@
     },
     {
         "id": 37,
-        "image": "./images/hotate-sashimi.jpg",
+        "image": "./images/yellowtail-nigiri.jpg",
         "name": "Hotate Sashimi",
         "desc": "Fresh, sweet scallop sashimi, served raw with a hint of citrus.",
         "price": 1029,
@@ -606,7 +606,7 @@
     },
     {
         "id": 38,
-        "image": "./images/uni-sashimi.jpg",
+        "image": "./images/salmon-roll.jpg",
         "name": "Uni Sashimi",
         "desc": "Delicate and creamy sea urchin sashimi with a rich umami taste.",
         "price": 1299,
@@ -620,7 +620,7 @@
     },
     {
         "id": 39,
-        "image": "./images/ebi-sashimi.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Ebi Sashimi",
         "desc": "Fresh shrimp sashimi with a naturally sweet taste.",
         "price": 859,
@@ -634,7 +634,7 @@
     },
     {
         "id": 40,
-        "image": "./images/ikura-sashimi.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Ikura Sashimi",
         "desc": "Salmon roe served in a delicate presentation with soy sauce.",
         "price": 1129,
@@ -648,7 +648,7 @@
     },
     {
         "id": 41,
-        "image": "./images/tako-sashimi.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Tako Sashimi",
         "desc": "Thinly sliced octopus sashimi with a chewy yet tender texture.",
         "price": 899,
@@ -662,7 +662,7 @@
     },
     {
         "id": 42,
-        "image": "./images/anago-sashimi.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Anago Sashimi",
         "desc": "Sea eel sashimi with a slightly smoky and sweet flavor.",
         "price": 969,
@@ -676,7 +676,7 @@
     },
     {
         "id": 43,
-        "image": "./images/salmon-don.jpg",
+        "image": "./images/sushi.jpeg",
         "name": "Salmon Don",
         "desc": "A bowl of sushi rice topped with fresh salmon slices.",
         "price": 1099,
@@ -690,7 +690,7 @@
     },
     {
         "id": 44,
-        "image": "./images/tuna-don.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Tuna Don",
         "desc": "A generous portion of sliced tuna served over sushi rice.",
         "price": 1149,
@@ -704,7 +704,7 @@
     },
     {
         "id": 45,
-        "image": "./images/ikura-don.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Ikura Don",
         "desc": "Sushi rice topped with a generous serving of salmon roe.",
         "price": 1299,
@@ -718,7 +718,7 @@
     },
     {
         "id": 46,
-        "image": "./images/una-don.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Una Don",
         "desc": "Grilled eel served over sushi rice, glazed with sweet unagi sauce.",
         "price": 1399,
@@ -732,7 +732,7 @@
     },
     {
         "id": 47,
-        "image": "./images/katsu-don.jpg",
+        "image": "./images/yellowtail-nigiri.jpg",
         "name": "Katsu Don",
         "desc": "Crispy breaded pork cutlet simmered in dashi and egg, served over rice.",
         "price": 1199,
@@ -746,7 +746,7 @@
     },
     {
         "id": 48,
-        "image": "./images/oyako-don.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Oyako Don",
         "desc": "A heartwarming dish of simmered chicken and egg over rice.",
         "price": 999,
@@ -760,7 +760,7 @@
     },
     {
         "id": 49,
-        "image": "./images/gyu-don.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Gyu Don",
         "desc": "Thinly sliced beef simmered in soy sauce and onions, served over rice.",
         "price": 1099,
@@ -774,7 +774,7 @@
     },
     {
         "id": 50,
-        "image": "./images/veggie-don.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Vegetable Don",
         "desc": "A healthy bowl with a mix of fresh and pickled vegetables over rice.",
         "price": 899,
@@ -788,7 +788,7 @@
     },
     {
         "id": 51,
-        "image": "./images/spicy-tuna-temaki.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Spicy Tuna Temaki",
         "desc": "A hand-rolled cone filled with spicy tuna and avocado.",
         "price": 599,
@@ -808,7 +808,7 @@
     },
     {
         "id": 52,
-        "image": "./images/salmon-temaki.jpg",
+        "image": "./images/sushi.jpeg",
         "name": "Salmon Avocado Temaki",
         "desc": "Fresh salmon and creamy avocado wrapped in a crisp seaweed cone.",
         "price": 579,
@@ -822,7 +822,7 @@
     },
     {
         "id": 53,
-        "image": "./images/vegetable-temaki.jpg",
+        "image": "./images/philadelphia-roll.jpg",
         "name": "Vegetable Temaki",
         "desc": "A healthy hand roll with cucumber, avocado, and pickled radish.",
         "price": 499,
@@ -842,7 +842,7 @@
     },
     {
         "id": 54,
-        "image": "./images/ebi-tempura-temaki.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Ebi Tempura Temaki",
         "desc": "Crispy shrimp tempura hand-rolled with cucumber and sauce.",
         "price": 649,
@@ -856,7 +856,7 @@
     },
     {
         "id": 55,
-        "image": "./images/unagi-temaki.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Unagi Temaki",
         "desc": "Grilled eel wrapped with sushi rice and seaweed, topped with eel sauce.",
         "price": 699,
@@ -870,7 +870,7 @@
     },
     {
         "id": 56,
-        "image": "./images/crab-salad-temaki.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Crab Salad Temaki",
         "desc": "Creamy crab salad hand-rolled with cucumber and sesame seeds.",
         "price": 549,
@@ -890,7 +890,7 @@
     },
     {
         "id": 57,
-        "image": "./images/yellowtail-temaki.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Yellowtail Scallion Temaki",
         "desc": "Fresh yellowtail hand roll with crisp scallions and ponzu sauce.",
         "price": 659,
@@ -910,7 +910,7 @@
     },
     {
         "id": 58,
-        "image": "./images/spicy-scallop-temaki.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Spicy Scallop Temaki",
         "desc": "Tender scallops with spicy mayo, wrapped in a seaweed cone.",
         "price": 699,
@@ -924,7 +924,7 @@
     },
     {
         "id": 59,
-        "image": "./images/softshellcrab-temaki.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Soft-Shell Crab Temaki",
         "desc": "Crispy soft-shell crab wrapped with sushi rice and seaweed.",
         "price": 749,
@@ -938,7 +938,7 @@
     },
     {
         "id": 60,
-        "image": "./images/tako-temaki.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Tako Temaki",
         "desc": "Octopus hand roll with a light, slightly chewy texture.",
         "price": 649,
@@ -952,7 +952,7 @@
     },
     {
         "id": 61,
-        "image": "./images/avocado-temaki.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Avocado Cucumber Temaki",
         "desc": "A light and refreshing avocado cucumber hand roll.",
         "price": 499,
@@ -966,7 +966,7 @@
     },
     {
         "id": 62,
-        "image": "./images/omakase-nigiri-set.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Omakase Nigiri Set",
         "desc": "A premium selection of chef's choice nigiri, freshly prepared.",
         "price": 1899,
@@ -980,7 +980,7 @@
     },
     {
         "id": 63,
-        "image": "./images/omakase-sashimi-set.jpg",
+        "image": "./images/sushi.jpeg",
         "name": "Omakase Sashimi Set",
         "desc": "An exquisite selection of the freshest seasonal sashimi.",
         "price": 2199,
@@ -994,7 +994,7 @@
     },
     {
         "id": 64,
-        "image": "./images/omakase-sushi-platter.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Omakase Sushi Platter",
         "desc": "A beautifully arranged platter of assorted sushi, handpicked by the chef.",
         "price": 3499,
@@ -1008,7 +1008,7 @@
     },
     {
         "id": 65,
-        "image": "./images/omakase-premium.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Omakase Premium Experience",
         "desc": "A luxurious multi-course sushi experience curated by the chef.",
         "price": 4999,
@@ -1026,7 +1026,7 @@
     },
     {
         "id": 66,
-        "image": "./images/omakase-toro.jpg",
+        "image": "./images/yellowtail-nigiri.jpg",
         "name": "Omakase Toro Experience",
         "desc": "An indulgent selection of premium fatty tuna (Toro) in various preparations.",
         "price": 2999,
@@ -1040,7 +1040,7 @@
     },
     {
         "id": 67,
-        "image": "./images/omakase-deluxe.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Omakase Deluxe Tasting",
         "desc": "A tasting menu featuring the chef’s signature creations.",
         "price": 4299,
@@ -1054,7 +1054,7 @@
     },
     {
         "id": 68,
-        "image": "./images/omakase-kai.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Omakase Kai Course",
         "desc": "A high-end dining experience featuring rare seasonal seafood.",
         "price": 5499,
@@ -1072,7 +1072,7 @@
     },
     {
         "id": 69,
-        "image": "./images/omakase-uni.jpg",
+        "image": "./images/spicy-tuna-roll.jpg",
         "name": "Omakase Uni Experience",
         "desc": "A curated selection of the best uni (sea urchin) from around the world.",
         "price": 3799,
@@ -1086,7 +1086,7 @@
     },
     {
         "id": 70,
-        "image": "./images/classic-chirashi.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Classic Chirashi",
         "desc": "A vibrant bowl of assorted sashimi over seasoned sushi rice.",
         "price": 1799,
@@ -1100,7 +1100,7 @@
     },
     {
         "id": 71,
-        "image": "./images/salmon-chirashi.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Salmon Chirashi",
         "desc": "Freshly sliced salmon served over sushi rice, garnished with sesame seeds.",
         "price": 1599,
@@ -1114,7 +1114,7 @@
     },
     {
         "id": 72,
-        "image": "./images/tuna-chirashi.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Tuna Chirashi",
         "desc": "A generous portion of tuna sashimi arranged over seasoned sushi rice.",
         "price": 1699,
@@ -1128,7 +1128,7 @@
     },
     {
         "id": 73,
-        "image": "./images/deluxe-chirashi.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Deluxe Chirashi",
         "desc": "A premium bowl with high-quality sashimi cuts including uni and ikura.",
         "price": 2299,
@@ -1149,7 +1149,7 @@
     },
     {
         "id": 74,
-        "image": "./images/vegetarian-chirashi.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Vegetarian Chirashi",
         "desc": "A fresh and colorful assortment of vegetables over sushi rice.",
         "price": 1299,
@@ -1169,7 +1169,7 @@
     },
     {
         "id": 75,
-        "image": "./images/unagi-chirashi.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Unagi Chirashi",
         "desc": "Grilled eel and tamago served over sushi rice, drizzled with unagi sauce.",
         "price": 1899,
@@ -1183,7 +1183,7 @@
     },
     {
         "id": 76,
-        "image": "./images/hotate-chirashi.jpg",
+        "image": "./images/sushi.jpeg",
         "name": "Hotate Chirashi",
         "desc": "Sweet scallops delicately placed over sushi rice, lightly seasoned.",
         "price": 1799,
@@ -1197,7 +1197,7 @@
     },
     {
         "id": 77,
-        "image": "./images/ikura-chirashi.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Ikura Chirashi",
         "desc": "A generous serving of salmon roe over sushi rice, bursting with umami flavor.",
         "price": 2099,
@@ -1211,7 +1211,7 @@
     },
     {
         "id": 78,
-        "image": "./images/spicy-chirashi.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Spicy Chirashi",
         "desc": "A fiery mix of spicy tuna, salmon, and yellowtail over sushi rice.",
         "price": 1899,
@@ -1230,7 +1230,7 @@
     },
     {
         "id": 79,
-        "image": "./images/tako-chirashi.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Tako Chirashi",
         "desc": "Tender octopus sashimi served over sushi rice with citrus dressing.",
         "price": 1799,
@@ -1249,7 +1249,7 @@
     },
     {
         "id": 80,
-        "image": "./images/edamame.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Edamame",
         "desc": "Steamed young soybeans sprinkled with sea salt.",
         "price": 399,
@@ -1263,7 +1263,7 @@
     },
     {
         "id": 81,
-        "image": "./images/miso-soup.jpg",
+        "image": "./images/cucumber-roll.jpg",
         "name": "Miso Soup",
         "desc": "Traditional Japanese soup with tofu, seaweed, and scallions.",
         "price": 299,
@@ -1277,7 +1277,7 @@
     },
     {
         "id": 82,
-        "image": "./images/sunomono-salad.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Sunomono Salad",
         "desc": "Light and refreshing cucumber salad with rice vinegar dressing.",
         "price": 499,
@@ -1291,7 +1291,7 @@
     },
     {
         "id": 83,
-        "image": "./images/gomae.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Gomae (Spinach with Sesame Dressing)",
         "desc": "Blanched spinach topped with a flavorful sesame sauce.",
         "price": 499,
@@ -1305,7 +1305,7 @@
     },
     {
         "id": 84,
-        "image": "./images/agedashi-tofu.jpg",
+        "image": "./images/tuna-sashimi.jpg",
         "name": "Agedashi Tofu",
         "desc": "Crispy fried tofu served with dashi-based sauce.",
         "price": 599,
@@ -1319,7 +1319,7 @@
     },
     {
         "id": 85,
-        "image": "./images/tempura-platter.jpg",
+        "image": "./images/tuna-tataki.jpg",
         "name": "Tempura Platter",
         "desc": "Assorted tempura including shrimp, eggplant, and sweet potato.",
         "price": 999,
@@ -1333,7 +1333,7 @@
     },
     {
         "id": 86,
-        "image": "./images/takoyaki.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Takoyaki",
         "desc": "Octopus-filled Japanese savory balls topped with bonito flakes.",
         "price": 699,
@@ -1347,7 +1347,7 @@
     },
     {
         "id": 87,
-        "image": "./images/gyoza.jpg",
+        "image": "./images/avocado-roll.jpg",
         "name": "Gyoza",
         "desc": "Pan-fried Japanese dumplings filled with pork and vegetables.",
         "price": 699,
@@ -1361,7 +1361,7 @@
     },
     {
         "id": 88,
-        "image": "./images/chawanmushi.jpg",
+        "image": "./images/shrimp-tempura-roll.jpg",
         "name": "Chawanmushi",
         "desc": "Silky smooth savory egg custard with shrimp and mushrooms.",
         "price": 599,
@@ -1375,7 +1375,7 @@
     },
     {
         "id": 89,
-        "image": "./images/karaage.jpg",
+        "image": "./images/rainbow-roll.jpg",
         "name": "Karaage (Japanese Fried Chicken)",
         "desc": "Crispy marinated Japanese-style fried chicken.",
         "price": 799,
@@ -1389,7 +1389,7 @@
     },
     {
         "id": 90,
-        "image": "./images/japanese-salad.jpg",
+        "image": "./images/vegetarian-roll.jpg",
         "name": "Japanese Seaweed Salad",
         "desc": "Refreshing seaweed salad with sesame dressing and cucumbers.",
         "price": 499,
