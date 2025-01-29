@@ -12,100 +12,126 @@
         <link href="./css/global.css" rel="stylesheet" />
         <link href="./css/main.css" rel="stylesheet" />
     </head>
-    <body>
+    <body class="relative">
         <div class="main-container">
             <!-- Header -->
-            <div class="navbar">
-                <div>
-                    <a href="index.html">
-                        <img
-                            src="./images/tsuki-sushi-logo.png"
-                            alt="Tsuki Sushi"
-                        />
-                    </a>
-                </div>
-                <div class="nav-icons">
-                    <a href="cart.html">
-                        <i data-lucide="shopping-cart"></i>
-                    </a>
-                    <a href="receipts.html">
-                        <i data-lucide="receipt-text"></i>
-                    </a>
+            <div class="navbar-container">
+                <div class="navbar">
+                    <div>
+                        <a href="index.html">
+                            <img
+                                src="./images/tsuki-sushi-logo.png"
+                                alt="Tsuki Sushi"
+                            />
+                        </a>
+                    </div>
+                    <div class="nav-icons">
+                        <a href="about.html">About</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="cart.html">Cart</a>
+                        <a href="receipts.html">Orders</a>
+                    </div>
                 </div>
             </div>
 
             <div class="child-container">
                 <div class="logo-name">TSUKI SUSHI</div>
+                <div class="hero">
+                    <img src="./images/hero-image.png" alt="Tsuki Sushi" />
+                </div>
 
                 <!-- Tabs for Categories -->
                 <div class="tabs">
-                    <button class="tab-button" data-tab="All">All</button>
-                    <button class="tab-button" data-tab="Best Sellers">
-                        Best Sellers
-                    </button>
-                    <button class="tab-button" data-tab="Maki">Maki</button>
-                    <button class="tab-button" data-tab="Nigiri">Nigiri</button>
-                    <button class="tab-button" data-tab="Sashimi">
-                        Sashimi
-                    </button>
-                    <button class="tab-button" data-tab="Donburi">
-                        Donburi
-                    </button>
-                    <button class="tab-button" data-tab="Temaki">Temaki</button>
-                    <button class="tab-button" data-tab="Omakase Specials">
-                        Omakase Specials
-                    </button>
-                    <button class="tab-button" data-tab="Chirashi">
-                        Chirashi
-                    </button>
-                    <button
-                        class="tab-button"
-                        data-tab="Side Dishes & Appetizers"
-                    >
-                        Side Dishes & Appetizers
-                    </button>
-                </div>
-
-                <input
-                    type="text"
-                    id="searchInput"
-                    class="search"
-                    placeholder="Search for a dish..."
-                />
-                <button id="searchButton" class="search-button">
-                    <i data-lucide="search"></i>
-                </button>
-
-                <!-- Filters -->
-                <div id="filters" class="filters">
                     <div>
-                        <label for="availabilityFilter"
-                            ><i data-lucide="eclipse" class="filter-icon"></i
-                        ></label>
-                        <select id="availabilityFilter" class="filter-select">
-                            <option value="all">All</option>
-                            <option value="available">Available</option>
-                            <option value="unavailable">Unavailable</option>
-                        </select>
+                        <button class="tab-button" data-tab="All">All</button>
+                        <button class="tab-button" data-tab="Best Sellers">
+                            Best Sellers
+                        </button>
+                        <button class="tab-button" data-tab="Maki">Maki</button>
+                        <button class="tab-button" data-tab="Nigiri">
+                            Nigiri
+                        </button>
+                        <button class="tab-button" data-tab="Sashimi">
+                            Sashimi
+                        </button>
+                        <button class="tab-button" data-tab="Donburi">
+                            Donburi
+                        </button>
+                        <button class="tab-button" data-tab="Temaki">
+                            Temaki
+                        </button>
+                        <button class="tab-button" data-tab="Omakase Specials">
+                            Omakase Specials
+                        </button>
+                        <button class="tab-button" data-tab="Chirashi">
+                            Chirashi
+                        </button>
+                        <button
+                            class="tab-button"
+                            data-tab="Side Dishes & Appetizers"
+                        >
+                            Sides
+                        </button>
                     </div>
                 </div>
 
                 <!-- Items list -->
-                <div id="itemsList" class="item-list"></div>
-
-                <button id="headToTop">UP</button>
-                <button id="showMore">Show More</button>
+                <div class="item-container">
+                    <div class="item-functions">
+                        <div id="filters" class="filters">
+                            <div>
+                                <label for="availabilityFilter"
+                                    ><i
+                                        data-lucide="filter"
+                                        class="filter-icon"
+                                    ></i
+                                ></label>
+                                <select
+                                    id="availabilityFilter"
+                                    class="filter-select"
+                                >
+                                    <option value="all">All</option>
+                                    <option value="available">Available</option>
+                                    <option value="unavailable">
+                                        Unavailable
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="search">
+                            <input
+                                type="text"
+                                id="searchInput"
+                                placeholder="Craving for a sushi?"
+                            />
+                            <button id="searchButton">
+                                <i data-lucide="search" class="search-icon"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="itemsList" class="item-list"></div>
+                    <div class="show">
+                        <button id="showMore">Show More</button>
+                    </div>
+                </div>
             </div>
 
             <!-- Footer -->
-            <div class="footer">
-                <span>COMP 016</span>
-                <span class="sep">/</span>
-                <span class="name">MARIA LUISA O. EUSTAQUIO</span>
-                <span class="sep">/</span>
-                <span>BSIT 3-5</span>
+            <div class="footer-container">
+                <img src="./images/footer-image.png" alt="Tsuki Sushi" />
+                <div class="footer">
+                    <span>COMP 016</span>
+                    <span class="sep">/</span>
+                    <span class="name">MARIA LUISA O. EUSTAQUIO</span>
+                    <span class="sep">/</span>
+                    <span>BSIT 3-5</span>
+                </div>
             </div>
         </div>
+
+        <button id="headToTop">
+            <i data-lucide="chevron-up"></i>
+        </button>
 
         <script src="https://unpkg.com/lucide@latest"></script>
         <script src="./js/main.js"></script>

@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+.notes {
+    margin-bottom: 20px;
+}
+
 .receipt {
     width: 100%;
     border: 2px solid #222222;

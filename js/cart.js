@@ -146,6 +146,18 @@ document.addEventListener("DOMContentLoaded", () => {
         );
     }
 
+    function updateStockAfterOrder(cart) {
+        let stocks = JSON.parse(localStorage.getItem("sushiStocks")) || {};
+
+        cart.forEach((item) => {
+            if (stocks[item.id]) {
+                stocks[item.id] = Math.max(0, stocks[item.id] - item.quantity); // Prevent negative stock
+            }
+        });
+
+        localStorage.setItem("sushiStocks", JSON.stringify(stocks));
+    }
+
     function recalcTotal() {
         let newTotal = cart.reduce((sum, item) => sum + item.totalCost, 0);
 
@@ -173,18 +185,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const nameField = document.getElementById("customerName");
         const contactField = document.getElementById("contactNumber");
         const notesField = document.getElementById("additionalNotes");
+        const addressField = document.getElementById("address");
 
         const customerName = nameField.value.toUpperCase();
         const contactNumber = contactField.value.toUpperCase();
         const additionalNotes = notesField.value.toUpperCase();
-
-        const orderTypeInputs = document.getElementsByName("orderType");
-        let orderTypeValue = "Dine-In";
-        orderTypeInputs.forEach((input) => {
-            if (input.checked) {
-                orderTypeValue = input.value;
-            }
-        });
+        const shippingAddress = addressField.value.toUpperCase();
 
         const chosenExtras = [];
         const extrasCheckboxes = document.getElementsByName("extras");
@@ -208,13 +214,15 @@ document.addEventListener("DOMContentLoaded", () => {
             name: customerName,
             contact: contactNumber,
             notes: additionalNotes,
-            orderType: orderTypeValue,
+            address: shippingAddress,
             total: newTotal,
         };
 
         let receipts = JSON.parse(localStorage.getItem("receipts")) || [];
         receipts.push(newReceipt);
         localStorage.setItem("receipts", JSON.stringify(receipts));
+
+        updateStockAfterOrder(cart);
 
         cart = [];
         localStorage.removeItem("cart");

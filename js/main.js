@@ -75,6 +75,8 @@ function addEventListeners() {
             searchItems();
         }
     });
+
+    setActiveTab("All");
 }
 
 function searchItems() {
@@ -167,7 +169,9 @@ function renderItems() {
                           alt="${item.name}" 
                         />
                         <div class="item-info">
-                          <span class="stocks">Stocks: ${stocks[item.id]}</span>
+                          <div class="stocks">Stocks:&nbsp;<span>${
+                              stocks[item.id]
+                          }</span></div>
                           <span class="name">${item.name}</span>
                           <span>${item.desc}</span>
                           ${

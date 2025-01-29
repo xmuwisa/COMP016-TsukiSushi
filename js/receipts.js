@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div><span>Date/Time:</span> ${r.dateTime}</div>
         <div><span>Name:</span> ${r.name}</div>
         <div><span>Contact:</span> ${r.contact}</div>
-        <div><span>Notes:</span> ${r.notes}</div>
-        <div><span>Order Type:</span> ${r.orderType}</p>
+        <div><span>Address:</span> ${r.address}</div>
+        <div class="notes"><span>Notes:</span> ${r.notes}</div>
         <span class="emp">Items</span>
         <table class="receipt-items-table">
             <thead>

@@ -1,14 +1,57 @@
+#headToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px;
+    border: 1px solid #222222;
+    box-shadow: 0 2px 0px 1px #222222;
+    background-color: #f15a26;
+    color: #fcfcfc;
+    opacity: 0.5;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+#headToTop:hover {
+    opacity: 1;
+}
+
+#headToTop:active {
+    scale: 0.9;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #222222;
+    border-radius: 15px;
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 75px 0;
+}
+
 .tabs {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 20px 0 10px 0;
+}
+
+.tabs div {
+    gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
 }
 
 .tabs .tab-button {
-    width: 50%;
+    width: 100%;
     padding: 20px;
     border: none;
     background-color: transparent;
@@ -31,24 +74,85 @@
     background-color: #f1592634;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0 6px;
+    border: solid 2px #222222;
+    width: 100%;
+    max-width: 450px;
+}
+
+#searchButton {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#searchButton:hover {
+    color: #b53440;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+#searchInput {
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.show button {
+    padding: 18px 24px;
+    border: none;
+    background-color: #f15a26;
+    color: #fcfcfc;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.show button:hover {
+    background-color: #722128;
+}
+
+.stocks {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    color: #222222;
+    opacity: 0.6;
+    font-size: 13px;
+}
+
+.stocks span {
+    font-weight: 600;
+}
+
 .filters {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     gap: 2px;
-    padding: 10px 0px 20px 0;
 }
 
 .filters div {
-    border: 2px solid #222222;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    border-radius: 8px;
-    padding: 4px 4px 4px 10px;
-    opacity: 0.7;
+    opacity: 0.6;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
@@ -71,14 +175,21 @@
 }
 
 .filter-select {
-    width: 100px;
+    width: 20px;
     border: none;
-    padding: 4px;
     cursor: pointer;
+    direction: rtl;
+}
+
+.item-functions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 6px;
 }
 
 .item-list {
-    padding: 20px 0 150px;
+    padding: 0 0 150px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 30px;
@@ -143,21 +254,48 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 1024px) {
+    .tabs div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 1024px) {
+    .tabs div {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 600px) {
+    #headToTop {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .show button {
+        width: 100%;
+    }
+
+    .tabs div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .tabs .tab-button {
         padding: 10px;
         font-size: 14px;
     }
 
-    .filters div {
-        border: 2px solid #222222;
-        gap: 2px;
-        padding: 2px 2px 2px 8px;
+    .search-icon {
+        width: 15px;
+        height: 15px;
     }
 
     .filter-icon {
         width: 15px;
         height: 15px;
-        color: #b53440;
+    }
+
+    .filter div {
+        padding: 9px;
     }
 }
