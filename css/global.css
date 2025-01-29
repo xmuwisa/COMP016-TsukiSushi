@@ -71,12 +71,9 @@ body {
 }
 
 .child-container {
-    background-color: #fcfcfc;
     box-sizing: border-box;
     width: 100%;
     max-width: 1536px;
-    border: 2px solid #222222;
-    box-shadow: 0 25px 0px 10px #222222;
     padding: 16px;
     height: 100%;
     min-height: 100svh;

@@ -6,27 +6,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const itemType = params.get("type");
 
     const SUSHI_JSON_PATH = "./data/sushi.json";
-    const DRINK_JSON_PATH = "./data/drink.json";
-
     let currentItem = null;
 
-    if (itemType === "sushi") {
-        fetch(SUSHI_JSON_PATH)
-            .then((res) => res.json())
-            .then((data) => {
-                currentItem = data.find((item) => item.id === itemId);
-                renderDetails(currentItem);
-            })
-            .catch((err) => console.error("Error fetching sushi data:", err));
-    } else {
-        fetch(DRINK_JSON_PATH)
-            .then((res) => res.json())
-            .then((data) => {
-                currentItem = data.find((item) => item.id === itemId);
-                renderDetails(currentItem);
-            })
-            .catch((err) => console.error("Error fetching drink data:", err));
-    }
+    fetch(SUSHI_JSON_PATH)
+        .then((res) => res.json())
+        .then((data) => {
+            currentItem = data.find((item) => item.id === itemId);
+            renderDetails(currentItem);
+        })
+        .catch((err) => console.error("Error fetching sushi data:", err));
 
     function renderDetails(item) {
         const detailsContainer = document.getElementById("detailsContainer");
@@ -105,8 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         `;
 
-        if (type === "sushi") {
-            formHtml += `
+        formHtml += `
             <div>
                 <span class="emp">Spice Level</span>
                 <label><input type="radio" name="spiceLevel" value="Regular" checked /> Regular</label>
@@ -114,16 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 <label><input type="radio" name="spiceLevel" value="Hot" /> Hot</label>
             </div>
         `;
-        } else {
-            formHtml += `
-            <div>
-                <span class="emp">Size</span>
-                <label><input type="radio" name="drinkSize" value="Small" checked /> Small</label>
-                <label><input type="radio" name="drinkSize" value="Medium" /> Medium</label>
-                <label><input type="radio" name="drinkSize" value="Large" /> Large</label>
-            </div>
-        `;
-        }
 
         popupContent.innerHTML = formHtml;
 
@@ -165,28 +142,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function addToCart(quantity, type) {
         let selectedOption = "";
-        if (type === "sushi") {
-            const spiceRadios = document.getElementsByName("spiceLevel");
-            spiceRadios.forEach((radio) => {
-                if (radio.checked) selectedOption = radio.value;
-            });
-        } else {
-            const sizeRadios = document.getElementsByName("drinkSize");
-            sizeRadios.forEach((radio) => {
-                if (radio.checked) selectedOption = radio.value;
-            });
-        }
+        const spiceRadios = document.getElementsByName("spiceLevel");
+        spiceRadios.forEach((radio) => {
+            if (radio.checked) selectedOption = radio.value;
+        });
 
         let basePrice = currentItem.price;
         let finalUnitPrice = basePrice;
-
-        if (type === "drinks") {
-            if (selectedOption === "Medium") {
-                finalUnitPrice += 20;
-            } else if (selectedOption === "Large") {
-                finalUnitPrice += 40;
-            }
-        }
 
         const totalCost = finalUnitPrice * quantity;
 

@@ -34,11 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         <div><span>Quantity: </span>${item.quantity}</div>
                         ${
                             item.option
-                                ? `<div><span>${
-                                      item.type === "sushi" ? "Spice" : "Size"
-                                  }:</span> ${item.option}</div>`
+                                ? `<div><span>Spice:</span> ${item.option}</div>`
                                 : ""
-                        }
+                        }                        
                         <div><span>Unit Price: </span>₱${
                             item.finalUnitPrice
                         }</div>
@@ -121,13 +119,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <td>${item.name}</td>
                 <td>${item.quantity}</td>
                 <td>
-                    ${
-                        item.option
-                            ? `<em>[${
-                                  item.type === "sushi" ? "Spice" : "Size"
-                              }: ${item.option}]</em>`
-                            : "N/A"
-                    }
+                ${
+                    item.option ? `<em>[Spice: ${item.option}]</em>` : "N/A"
+                }                
                 </td>
                 <td>₱${item.totalCost}</td>
             </tr>

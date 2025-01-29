@@ -72,13 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <tr>
                 <td>${item.name}</td>
                 <td>${item.quantity}</td>
-                <td>${
-                    item.option
-                        ? item.type === "sushi"
-                            ? `Spice: ${item.option}`
-                            : `Size: ${item.option}`
-                        : "N/A"
-                }</td>
+                <td>${item.option ? `Spice: ${item.option}` : "N/A"}</td>
                 <td>₱${item.totalCost}</td>
             </tr>
             `;

@@ -37,24 +37,47 @@
             <div class="child-container">
                 <div class="logo-name">TSUKI SUSHI</div>
 
-                <!-- Tabs for Sushi and Drinks -->
+                <!-- Tabs for Categories -->
                 <div class="tabs">
-                    <button class="tab-button" data-tab="sushi">SUSHI</button>
-                    <button class="tab-button" data-tab="drinks">DRINKS</button>
+                    <button class="tab-button" data-tab="All">All</button>
+                    <button class="tab-button" data-tab="Best Sellers">
+                        Best Sellers
+                    </button>
+                    <button class="tab-button" data-tab="Maki">Maki</button>
+                    <button class="tab-button" data-tab="Nigiri">Nigiri</button>
+                    <button class="tab-button" data-tab="Sashimi">
+                        Sashimi
+                    </button>
+                    <button class="tab-button" data-tab="Donburi">
+                        Donburi
+                    </button>
+                    <button class="tab-button" data-tab="Temaki">Temaki</button>
+                    <button class="tab-button" data-tab="Omakase Specials">
+                        Omakase Specials
+                    </button>
+                    <button class="tab-button" data-tab="Chirashi">
+                        Chirashi
+                    </button>
+                    <button
+                        class="tab-button"
+                        data-tab="Side Dishes & Appetizers"
+                    >
+                        Side Dishes & Appetizers
+                    </button>
                 </div>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    class="search"
+                    placeholder="Search for a dish..."
+                />
+                <button id="searchButton" class="search-button">
+                    <i data-lucide="search"></i>
+                </button>
 
                 <!-- Filters -->
                 <div id="filters" class="filters">
-                    <div>
-                        <label for="categoryFilter"
-                            ><i data-lucide="filter" class="filter-icon"></i
-                        ></label>
-                        <select
-                            id="categoryFilter"
-                            class="filter-select"
-                        ></select>
-                    </div>
-
                     <div>
                         <label for="availabilityFilter"
                             ><i data-lucide="eclipse" class="filter-icon"></i
@@ -69,6 +92,9 @@
 
                 <!-- Items list -->
                 <div id="itemsList" class="item-list"></div>
+
+                <button id="headToTop">UP</button>
+                <button id="showMore">Show More</button>
             </div>
 
             <!-- Footer -->
